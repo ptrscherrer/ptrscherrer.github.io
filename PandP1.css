@@ -6,9 +6,9 @@
 #nav1{
 	width:100%;
 	position:fixed;
-	top:2px;
+	top:10px;
 	margin:0 auto;
-	background-color:transparent;	
+	background-color:#transparent;	
 }
 
 .nav{ 
@@ -26,16 +26,25 @@
 	border-radius:15px;
 	display:block;
 	padding:2px;
-	opacity:0.75;
-	border-color:#DC47FF;
-	border-style:solid;
-	color:#FF3939;
+	margin-left:10px;
+	margin-right:10px;
+	border-color:#F52114;
+	border-style:none;
+	color:#F52114;
+	text-decoration:none;
+	font-family:Copperplate / Copperplate Gothic Light, sans-serif;
 }
+
+.nav a:hover{
+	opacity:.75;
+	text-decoration:underline;
+
+}
+
 body{
     background:#000;
-    font-family:Georgia;
-    font-size: 34px;
-    font-style: italic;
+    font-family:"Comic sans";
+    font-size: 2em;
     letter-spacing:-1px;
     width:1000%;
     position:absolute;
@@ -71,9 +80,15 @@ body{
 	
 }
 
+#section1 h2{
+
+	margin:5% 0px 2% 2%;
+	font-size:250%;
+}
+
 
 #section2{
-	background-color:#769293;
+	background-color:#E7E7E4;
 }
 
 #section2 p{
@@ -116,13 +131,13 @@ body{
 }
 
 #section3{
-	background-color:#A5B7B7;
+	background-color:#FEFEFA;
 	}
 
 #section4{
-	background-color:#769293;
+	background-color:#E7E7E4;
 }
 
 #section5{
-	background-color:#A5B7B7;
+	background-color:#FEFEFA;
 }
