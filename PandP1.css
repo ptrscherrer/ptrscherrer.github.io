@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Bahiana');
+
+
 *{
     margin:0;
     padding:0;
@@ -17,6 +20,7 @@
 	
 }
 
+
 .nav li{
 	display:inline-block;
 	margin:auto;
@@ -32,7 +36,8 @@
 	border-style:none;
 	color:#F52114;
 	text-decoration:none;
-	font-family:Copperplate / Copperplate Gothic Light, sans-serif;
+	font-family: 'Bahiana', cursive;
+
 }
 
 .nav a:hover{
@@ -43,7 +48,7 @@
 
 body{
     background:#000;
-    font-family:"Comic sans";
+    font-family:'Pacifico',arial;
     font-size: 2em;
     letter-spacing:-1px;
     width:1000%;
@@ -95,7 +100,7 @@ body{
 	font-size:70%;
 }
 
-#usd img{
+.image2{
 	max-height:200px;
 	display:block;
 	margin:auto;
