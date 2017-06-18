@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bahiana');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
 
 
 *{
@@ -51,12 +52,17 @@ body{
     font-family:'Pacifico',arial;
     font-size: 2em;
     letter-spacing:-1px;
-    width:700%;
+    width:650%;
     height:100%;
     position:absolute;
     top:0px;
     left:0px;
     bottom:0px;
+}
+
+h2{
+	font-family: 'Alex Brush', cursive;
+
 }
 .section{
     margin:0px;
@@ -68,7 +74,7 @@ body{
 }
 
 .section h2{
-    margin:2.5% 0px 0% 2%;
+    margin:5% 0px 0% 2%;
 
 }
 
@@ -80,25 +86,31 @@ body{
     width:600px;
 }
 #section1 {
-	background-image:url(PandPWeb/g4233.png);
+	background-image:url(PandPWeb/kyoto.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position:bottom;
+	background-position:bottom right;
 	
 }
 
 #section1 h2{
 
 	margin:5% 0px 0% 2%;
-	font-size:250%;
+	font-size:300%;
+	font-family: 'Alex Brush', cursive;
+}
+
+#coupleimg{
+	width:11%;
+	margin:3% 0% 0% 10%;
 }
 
 
 #section2{
-	background-image:url(PandPWeb/snowboard.png);
+	background-image:url(PandPWeb/winter2.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position:bottom;
+	background-position:bottom right;
 	}
 
 #section2 p{
@@ -141,15 +153,18 @@ body{
 }
 
 #section3{
-	background-image:url(PandPWeb/swisslong2.png);
+	background-image:url(PandPWeb/cows.png);
 	background-repeat:no-repeat;
 	background-size:cover;
-	background-position:bottom;
+	background-position:bottom right;
 	
 	}
 
 #section4{
-	background-color:#E7E7E4;
+	background-image:url(PandPWeb/beach.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:bottom right;
 }
 
 #section5{
