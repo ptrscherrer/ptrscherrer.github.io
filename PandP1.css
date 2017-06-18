@@ -51,7 +51,7 @@ body{
     font-family:'Pacifico',arial;
     font-size: 2em;
     letter-spacing:-1px;
-    width:1000%;
+    width:700%;
     height:100%;
     position:absolute;
     top:0px;
@@ -80,9 +80,10 @@ body{
     width:600px;
 }
 #section1 {
-	background-image:url(kyoto1.jpg);
+	background-image:url(PandPWeb/g4233.png);
 	background-repeat:no-repeat;
 	background-size:cover;
+	background-position:bottom;
 	
 }
 
@@ -94,8 +95,11 @@ body{
 
 
 #section2{
-	background-color:#E7E7E4;
-}
+	background-image:url(PandPWeb/snowboard.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:bottom;
+	}
 
 #section2 p{
 	font-size:70%;
@@ -137,7 +141,11 @@ body{
 }
 
 #section3{
-	background-color:#FEFEFA;
+	background-image:url(PandPWeb/swisslong2.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:bottom;
+	
 	}
 
 #section4{
