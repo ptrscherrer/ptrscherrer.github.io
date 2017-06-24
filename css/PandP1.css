@@ -127,7 +127,7 @@ h2{
 
 #coupleimg{
 	width:15%;
-	margin:3% 0% 0% 12%;
+	margin:4% 0% 0% 12%;
 }
 
 
@@ -199,14 +199,8 @@ h2{
 	background-position:bottom right;
 }
 
- #section4 img {
-	width:30%;
-	border-radius:15px;
-}
-
-#section4 .hor{
-	height:35%;
-	width:auto;
+ td img {
+	width:100%;
 }
 
 
