@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Bahiana');
+@import url('https://fonts.googleapis.com/css?family=Alex+Brush');
+
+body{
+	width:650%;
+	height:100%;
+	position:absolute;
+	margin:0;
+	background-color:pink;	
+	font-size:5vh;
+}
+
+.navbar {
+	  position:fixed;
+	  top: 0;
+	  margin-left: 0;
+	  width: 100vw;
+	  background-color:transparent;
+	  -webkit-backface-visibility: hidden;
+	  text-align:center;
+	}
+	.navbar ul, .navbar li {
+	  	display:inline;
+	}  	
+	.navbar ul:first-child{
+
+		padding-left:0;  	
+	}
+	.nav a{
+		text-align:center;
+		font-size:.8em;
+		color:#F52114;
+		padding:1%;
+		text-decoration:none;
+		font-family: 'Bahiana', cursive;
+		text-shadow:1px 2px 2px black;
+	}
+
+.section{
+		width:20%;
+		height:100%;
+		float:left;
+	}
+	.vertical{
+		width:100vw;
+		height:90vh;
+		margin-top:6vh;
+		overflow-y:scroll;
+		overflow-x:hidden;
+		text-align:center;
+	}
+	h2{
+		margin-top:1em;
+		font-family: 'Alex Brush', cursive;
+		font-size:1.6em;
+	}
+
+#section1{
+		background-image:url(PandPWeb/kyoto.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:right bottom;
+	}
+	#section1 h3{
+		margin:-2em 0em 0em 1em;
+		font-size:1em;
+	}
+	#coupleimg{
+		height:9em;
+		
+	}
+
+#section2{
+		background-image:url(PandPWeb/winter2.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:bottom right;
+		}
+	.image2{
+		width:50%;
+		display:block;
+		margin:auto;
+	}
+	#section2 .hide .indiv{
+		margin:auto;
+		width:10em;
+		float:left;
+		margin:-10px;
+	}
+	#section2 .hide img{
+		display:inline-block;
+	}
+	.special{
+		position:absolute;
+		bottom:0;
+		height:12%;
+		width:100vw;
+		text-align:center;
+	}
+	.special p:first-child{
+		margin-left:0%;
+	}
+	.special p{
+		display:inline-block;
+		margin-left:1em;
+		text-shadow:1px 1px 2px #F52114;
+	}
+	.special p:hover{
+		cursor:pointer;
+		color:blue;
+	}
+	
+#section3{
+		background-image:url(PandPWeb/cows.png);
+		background-repeat:no-repeat;
+		background-size:cover;
+		background-position:bottom right;
+	}
+	#maptaiwan{
+		width:50%;
+		margin:2% 0 0 5%;
+	}
+	.scrollimg{
+		height:4vh;
+		width:40vw;
+		display:block;
+		margin-left:30vw;
+		position:absolute;
+		bottom:0;
+	}
+
+#section4{
+	background-image:url(PandPWeb/beach.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:bottom right;
+}
+
+ #section4 .vertical img {
+	width:30%;
+	border-radius:15px;
+}
+
+
+#section5{
+	background-image:url(PandPWeb/Tainan.png);
+	background-repeat:no-repeat;
+	background-size:cover;
+	background-position:bottom right;
+}
