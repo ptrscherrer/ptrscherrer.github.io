@@ -14,7 +14,7 @@
 <link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" />
 
 
-<script  type="text/javascript" src="js/jquery-3.0.0.js"></script>
+<script  type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="js/PandPscript.js"></script>
 <script type="text/javascript" src="js/slimbox2.js"></script>
 
@@ -23,14 +23,26 @@
 
 
 <body>
-<nav class="navbar">
+<nav class="navbar english">
 	  	<ul class="nav">
 			<li><a href="#section1">Start</a></li>
 			<li><a href="#section2">Us</a></li>
-			<li><a href="#section3">General Info</a></li>
+			<li><a href="#section3">Wedding Info</a></li>
 			<li><a href="#section4">Photo Album</a></li>
 			<li><a href="#section5">End</a></li>
+			<li id="man" class="lang">中文</li>
 		</ul>
+</nav>
+<nav class="navbar hide3 chinese">
+	  	<ul class="nav">
+			<li><a href="#section1">首頁</a></li>
+			<li><a href="#section2">我們</a></li>
+			<li><a href="#section3">囍</a></li>
+			<li><a href="#section4">圖像</a></li>
+			<li><a href="#section5">關於本站</a></li>
+			<li id="eng" class="lang">En</li>
+		</ul>
+		
 </nav>
 
 <div class="section" id="section1">
@@ -46,7 +58,7 @@
 </div>
 
 <div class="section" id="section2">
-<div class="vertp">
+<div class="vertp english">
 	<div class=" vertical hide1 hide2" id="usd">
 		<h2>Us</h2>
 		
@@ -83,7 +95,7 @@
 			<div class="indiv">
 				<h3>Bride</h3>
 				<p><b>Age:</b> Similar to the Grooms</p>
-				<p><b>Height:</b> 157.520</p>
+				<p><b>Height:</b> 157.520cm</p>
 				<p><b>Skill:</b> Singlish</p>
 				<p><b>Horoscope:</b> Virgo</p>
 			</div>
@@ -99,17 +111,76 @@
 		<p id="phoeb">Phoebe</p>
 	</div>
 </div>
+<div class="vertp hide3 chinese">
+	<div class=" vertical hide1 hide2" id="usdc">
+		<h2>我們</h2>
+		
+			<p>	　 2012年，彼得認識了在京都語言學校的佳玲；在一年一度的京都祉園祭結束後，彼得終於鼓起勇氣向佳玲告白，可是佳玲的回答卻是〝如果我有空的話……。〞過了幾天，彼得收到一則訊息，〝要不要一起去下鴨神社參加御手洗祭典呢? 〞
+		<img class="image2" src="pandp1.jpg" alt="Peter and Phoebe"/>
+				在這五年的時間裡，感謝下鴨神社的Kami Sama (日文神明的意思)保佑， 我們決定
+				陪著彼此一起度過接下來的10年，50年，100年……</p>			
+	</div>
+	<div class="vertical hide hide1" id="petedc">
+		<h2>雪彼得 Peter</h2>		
+				<div class="indiv">
+
+					<h3>新郎</h3>
+					<p><b>年紀:</b> 好像跟新娘差不多年紀</p>
+					<p><b>身高:</b> 174.1314公分</p>
+					<p><b>專長:</b> 走路很快</p>
+					<p><b>星座:</b> 處女座</p>
+				</div>
+				<img class="image2" src="peter1.jpg"/>
+				<p>　 雪彼得，一位才華洋溢的年輕人，如果他不是在挑戰從幾近垂直的雪山壁中滑下，就是在前往其他極限運動的路上。天阿! 他也太有趣了!</p>
+	</div>
+	<div class=" vertical hide hide2" id="phoebdc">
+		<h2>吳佳玲 Phoebe</h2>
+		
+			<div class="indiv">
+				<h3>新娘</h3>
+				<p><b>年紀:</b> 好像跟新郎差不多年紀</p>
+				<p><b>身高:</b> 身高157.520公分</p>
+				<p><b>專長:</b> 新加坡英文</p>
+				<p><b>星座:</b> 處女座</p>
+			</div>
+				<img class="image2" src="phoebe1.jpg"/>
+				<p>吳佳玲 (Phoebe) ，做任何決定前一定要計畫、規劃。不論工作還是旅行，一定會提前準備好!</p> 
+				<p>還有還有不得不提到，彼得有多喜歡她親手做的蛋糕!</p>
+	</div>
+	<div class="special">
+		<p id="petec">Peter</p>
+		<p id=usc>Us</p>
+		<p id="phoebc">Phoebe</p>
+	</div>
+</div>
 </div>
 
 <div class="section" id="section3">
-<div class="vertp">
+<div class="vertp english">
 	<div class="vertical" id="Info">
-		<h2>General Information</h2>
+		<h2>Wedding Information</h2>
 		<p>Date: November 12, 2017</p>
 		<p>Location: Tainan, Taiwan</p>
+		<p>If you are coming please click to <a href="https://docs.google.com/forms/d/e/1FAIpQLScEHu1jftCEzKdRh9EzvHSjUcbG_3zx6yQTlLPE8pAhGjkc1w/viewform?c=0&w=1&includes_info_params=true" target="_blank">RSVP</a></p>
 		<a href="PandPWeb/Tainanmap.png" title="Map of Taiwan"><img id="maptaiwan" src="PandPWeb/Tainanmap.png" alt="Map of Taiwan"></a>
-		<p>More information to come. Just be in Tainan on that day!</p>
-		<p>Please don't hesitate to contact me if you have any questions ptrscherrer@gmail.com</p>	
+		<p>Please don't hesitate to contact Peter if you have any questions ptrscherrer@gmail.com</p>	
+	</div>
+</div>
+<div class="vertp chinese hide 3">
+	<div class="vertical" id="Info">
+		<h2>囍</h2>
+		<p>2017年11月 12日 (日)  12:01 準時開席</p>
+		<p>地點: 台南市大橋國小禮堂</p>
+		<p>地址:   (近大橋站)</p>
+		<p>婚禮當天流程</p>
+		<p>8:00 訂婚儀式</p>
+		<p>9:00 迎娶儀式</p>
+		<p>10:00 拜別</p>
+		<p>10:30 飯店儀式</p>
+		<p>12:01 午宴</p>
+		<p></p>
+		<p>18:00 After Party</p>
+		<p>出席回覆</p>
 	</div>
 </div>
 </div>
@@ -185,7 +256,7 @@
 		<a href="PandPWeb/PP59.5.JPG" rel="lightbox-pp" title="♡Our little white house (the first house we owned)♡"><img src="PandPWeb/PP59.5.JPG"/></a>
 		<a href="PandPWeb/PP60.JPG" rel="lightbox-pp" title="♡kimi ga dai suki da!♡"><img src="PandPWeb/PP60.JPG"/></a>
 		<a href="PandPWeb/PP61.JPG" rel="lightbox-pp" title="♡Pink salt lake 520♡"><img src="PandPWeb/PP61.JPG"/></a>
-		<a href="PandPWeb/PP62.JPG" rel="lightbox-pp" title="♡Puffing Pete (im talking about the train)♡"><img src="PandPWeb/PP62.JPG"/></a>
+		<a href="PandPWeb/PP62.JPG" rel="lightbox-pp" title="♡Puffing Billy (im talking about the train)♡"><img src="PandPWeb/PP62.JPG"/></a>
 		<a href="PandPWeb/PP63.JPG" rel="lightbox-pp" title="♡Campfire Tasmania♡"><img src="PandPWeb/PP63.JPG"/></a>
 		<a href="PandPWeb/PP64.JPG" rel="lightbox-pp" title="♡Kyoto Thai Restaurant♡"><img src="PandPWeb/PP64.JPG"/></a>
 		<a href="PandPWeb/PP65.JPG" rel="lightbox-pp" title="♡Dear Neil, We are both taller than you♡"><img src="PandPWeb/PP65.JPG"/></a>
@@ -197,7 +268,7 @@
 </div>
 </div>
 <div class="section" id="section5">
-<div class="vertp">
+<div class="vertp english">
 	<div class="vertical">
 		<h2>End</h2>
 		<p>Dear Family and Friends,</p> 
@@ -209,7 +280,17 @@
 		<p>Hope we can all get together for a good time in November!</p>
 	</div>
 </div>
+<div class="vertp chinese hide3">
+	<div class="vertical">
+		<h2>關於本站</h2>
+		<p>本站只是基於彼得在台灣是閒閒的無業遊民(?!) 而製作的紀念性網站!</p> 
+		<p>從2016年中開始，彼得開始使用線上免費學習網站，線上上課，寫程式，到2017年的7月終於完成了!</p>
+		<p>製作的過程中，要大大的謝謝和彼得佳玲在京都一起讀書的女孩- Joy Hsieh,，謝謝你幫這個網站畫這麼可愛又有意義的插圖! 還有幫彼得佳玲做中文校稿的 Smart Wong!!! (哈) </p>
+		<p>最後，要感謝大家的參與的幫忙!! 11月12日 見!!!</p>
+	</div>
 </div>
+</div>
+
 
 
 

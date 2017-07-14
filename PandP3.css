@@ -33,7 +33,10 @@ body{
 		padding:1%;
 		text-decoration:none;
 		font-family: 'Bahiana', cursive;
-		text-shadow:1px 2px 2px black;
+	}
+	.active {
+		border-top: 3px solid #F52114;
+		border-radius:3px;
 	}
 
 .section{
@@ -56,6 +59,8 @@ body{
 	}
 	p{
 		font-size:.7em;
+		background-color:white;
+		border-radius:5px;
 	}
 
 #section1{
